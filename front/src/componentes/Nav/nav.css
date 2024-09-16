@@ -1,0 +1,38 @@
+.section-container {
+    background-color: #222831;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.containerLogo {
+    display: flex;
+    width: 70%;
+    padding-left: 10%;
+}
+
+.containerLoginCuenta {
+    display: flex;
+    width: 30%;
+    justify-content: end;
+    padding-right: 10%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.containerBotones {
+    display: flex;
+    margin-left: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.botonesNav{
+ margin-right: 5px;
+}
+
+.logoNav{
+
+}

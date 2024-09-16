@@ -1,0 +1,37 @@
+.sectionHeader {
+    display: flex;
+    width: 100%;
+    position: sticky;  /* Hace que el elemento se "pegue" al hacer scroll */
+    top: 0;           /* Alinea el elemento al borde izquierdo de la página */
+    z-index: 1000;    /* Asegura que esté por encima de otros elementos */
+    background-color: #EEEEEE;  /* Fondo blanco para evitar transparencia */
+    
+    
+    padding-top: 2%;
+}
+
+.containerBotton {
+    width: 20%;
+}
+
+.containerDays {
+    width: 80%;
+    display: flex;
+}
+
+.boxDate {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    font-size: large;
+    font-weight: 600;
+    color: #393E46;
+    
+}
+
+.boxDateFirst {
+    
+    font-size: large;
+    font-weight: 600;
+    color: #393E46;
+}
