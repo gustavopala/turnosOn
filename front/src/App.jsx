@@ -3,8 +3,9 @@ import Home from './vistas/home/Home'
 import Nav from './componentes/Nav/Nav'
 import Seguimiento from './vistas/seguimiento/Seguimiento'
 import Clientes from './vistas/clientes/Clientes'
+import Login from './vistas/login/Login'
 
-function App(){
+function App(){  
   return(
     <>
     <Router>
@@ -13,6 +14,7 @@ function App(){
         <Route path ="/" element={<Home/>}/>
         <Route path ="/seguimiento" element={<Seguimiento/>}/>
         <Route path ="/clientes" element={<Clientes/>}/>
+        <Route path ="/login" element={<Login/>}/>
       </Routes>
     </Router>
     </>
